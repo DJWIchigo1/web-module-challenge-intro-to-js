@@ -19,7 +19,8 @@ Do the following:
 
    HINT: no function required
 */
-
+  var votingAge = 18
+    console.log(votingAge(18, "its true"));
 
 
 /*
@@ -33,7 +34,17 @@ Do the following:
 
    HINT: no function required
 */
+  var firstThing 
+    if (firstThing){
+      then ("its true");
+    }
+    console.log("its true")
 
+    var secondThing
+      if (secondThing){
+        then (firstThing);
+      }
+      console.log()
 
 
 
@@ -48,7 +59,18 @@ Do the following:
 
    HINT: look up the Number method
 */
-
+      str = "1999";
+      try {
+           int number =
+      Integer.parseInt(str); 
+            System.out.printIn(number); //
+   output = 1999   
+      }
+      catch (NumberFormatException ex){
+        ex.printStackTrace();
+      }
+      console.log("1999")
+    
 
 
 
@@ -61,8 +83,12 @@ Do the following:
    3. Multiply a and b and return the answer
 */
 
-function multiply(/*add your code here*/){
-  /*add your code here*/
+function multiply(boxes, crates){
+  return  boxes*crates
+
+    product = "5"*"10";
+
+    return "50";
 }
 
 
@@ -77,8 +103,9 @@ Do the following:
  3. Return the newly calculated age
 */
 
-function dogYears(/*add your code here*/){
-  /*add your code here*/
+function dogYears(humanYears, dogYears){
+  ageValue(1, 7)
+      return ("15")
 }
 
 
@@ -129,8 +156,9 @@ NOTE 2: This is a great time to check the tests to see what it expects, versus w
         So, on this one test, the weight would be 4 pounds, and the age would be 1 years old. It's expecting your function to return a decimal number of 0.2
 */  
 
-function hungryDog(/*add your code here*/){
-  /*add your code here*/
+function hungryDog(pounds, years){
+  it(7, 1)
+    expect(functions.hungryDog(7, 1)).toBe(0.2);
 }
 
 
@@ -157,8 +185,19 @@ RULES OF THE GAME: Scissors beats Paper | Paper beats Rock | Rock beats Scissors
 */
 
 function game(user, computer){
-  /*add your code here*/
-}
+  
+    var choice = Math.random();
+
+    if (choice === 1){
+      console.log("scissors");
+    }
+
+
+    if (choice === 0){
+      console.log("paper");
+    }
+    }
+
 
 
 
@@ -173,8 +212,10 @@ Using the miles function below do the following:
 3. Return the number of miles
 */
 
-function miles(/*add your code here*/){
-  /*add your code here*/
+function miles(){
+  kilometers("35");
+
+  return(miles("22.3694"))
 }
 
 
@@ -187,8 +228,10 @@ Using the feet function below do the following:
 3. Return number of feet
 */
 
-function feet(/*add your code here*/){
-  /*add your code here*/
+function feet(){
+  cm("1323.9")
+
+  return(feet("43.4350394"))
 }
 
 
